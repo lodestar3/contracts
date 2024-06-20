@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract myNFT is ERC721, Ownable {
+contract ipfsNFT is ERC721, Ownable {
     // Mapping from token ID to IPFS CID
     mapping(uint256 => string) private _tokenURIs;
 
